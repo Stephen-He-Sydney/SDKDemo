@@ -1,0 +1,44 @@
+﻿@model RingCentralDemo.Models.TokenResponseModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td><b>AccessToken:</b> @Model.AccessToken.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>ExpireIn:</b> @Model.ExpireIn.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>RefreshToken:</b> @Model.RefreshToken.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>RefreshToken_ExpireIn:</b> @Model.RefreshToken_ExpireIn.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>TokenType:</b> @Model.TokenType.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>Scope:</b> @Model.Scope.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>OwnerId:</b> @Model.OwnerId.ToString()</td>
+            </tr>
+            <tr>
+                <td><b>EndpointId:</b> @Model.EndpointId.ToString()</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
