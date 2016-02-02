@@ -50,6 +50,7 @@ Platform = new SDKModel().GenerateSDK().GetPlatform();
 
 ###### Step2
 ###### User login and consent
+![alt text](http://ringcentral.github.io/images/rng_3leg-oauth_side-by-side_640x551.png "3-legged OAuth")
 
 ###### Step3
 ###### Retrieve authorization code
