@@ -18,9 +18,19 @@
 This document is used to assist developers with the way how to integrate authorization code grant type of C# SDK with your client applications.
 
 ### Client Application Integration
+
+###### Step1
 ###### Request authorization code
+
+###### Step2
 ###### User login and consent
+
+###### Step3
 ###### Retrieve authorization code
+
+###### Step4
 ###### Exchange code for token
+
+###### Step5
 ###### Get access token
 
