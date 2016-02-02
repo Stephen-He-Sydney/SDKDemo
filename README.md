@@ -1,4 +1,10 @@
-#  SDK Demo;
+#  SDK Demo
+
+[![NuGet][nuget-version-svg]][nuget-version-link]
+[![NuGet][nuget-count-svg]][nuget-count-link]
+[![Build Status][build-status-svg]][build-status-link]
+[![Coverage Status][coverage-status-svg]][coverage-status-link]
+[![License][license-svg]][license-link]
 
 ## OAuth 2.0 Authorization Code Grant Type For RingCentral C# SDK 
 
