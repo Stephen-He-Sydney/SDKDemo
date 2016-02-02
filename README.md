@@ -4,7 +4,7 @@
 
 ###### Table of contents
 
-1. [Overview](#installation)
+1. [Overview](#Installation)
 
 2. [Client application integration]()
   1. [Request authorization code](https://www.google.com)
@@ -12,8 +12,6 @@
   3. [Retrieve authorization code](https://www.google.com)
   4. [Exchange code for token](https://www.google.com)
   5. [Get access token](https://www.google.com)
-  
-
 
 
 
