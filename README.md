@@ -21,6 +21,8 @@ This document is used to assist developers with the way how to integrate authori
 
 ###### Step1
 ###### Request authorization code
+###### a)	Create request url 
+###### b)	Let url redirect page by calling authUrl method of SDK
 
 ###### Step2
 ###### User login and consent
