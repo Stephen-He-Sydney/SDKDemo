@@ -6,7 +6,7 @@
 
 1. [Overview](#overview)
 
-2. [Client application integration](#client-application-integration)
+2. [Client application integration](#request-authorization-code)
   1. [Request authorization code](#request-authorization-code)
   2. [User login and consent](#user-login-and-consent)
   3. [Retrieve authorization code](#retrieve-authorization-code)
@@ -14,8 +14,8 @@
   5. [Get access token](#get-access-token)
 
 
-## Overview
+###### Overview
 This document is used to assist developers with the way how to integrate authorization code grant type of C# SDK with your client applications.
 
-## Client application integration
-  ### Request authorization code
+###### Client application integration
+
