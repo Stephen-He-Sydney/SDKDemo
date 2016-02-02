@@ -21,7 +21,23 @@ This document is used to assist developers with the way how to integrate authori
 
 ###### Step1
 ###### Request authorization code
-###### a)	Create request url 
+###### a)	Create request URL 
+```cs
+Platform = new SDKModel().GenerateSDK().GetPlatform();
+            AuthCodeParams = new Dictionary<string, string>
+              {
+                  {"response_type", "code" },
+                  {"client_id", "8GtalMrJRA2JnozdtdWTlg" }, 
+                  {"redirect_uri", "http://localhost:3000/redirect" }, 
+                  {"prompt", "login consent" }, 
+                  {"state", "statebyStephenHe" },
+              };
+            SessionHelper.Set("state", AuthCodeParams["state"]);
+            SessionHelper.Set("redirect_uri", AuthCodeParams["redirect_uri"]);
+
+```
+
+
 ###### b)	Let url redirect page by calling authUrl method of SDK
 
 ###### Step2
