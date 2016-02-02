@@ -19,6 +19,7 @@ This document is used to assist developers with the way how to integrate authori
 
 ### Client Application Integration
 
+
 ###### Step One
 ###### Request Authorization Code
 ###### a)	Create request URL 
@@ -48,6 +49,7 @@ Platform = new SDKModel().GenerateSDK().GetPlatform();
 ```
 
 
+
 ###### Step Two
 ###### User Login and Consent
 ![alt text](http://ringcentral.github.io/images/rng_3leg-oauth_side-by-side_640x551.png "3-legged OAuth")
@@ -60,8 +62,10 @@ Enter the provided phone number and password, and click login button
 ###### Step Three
 ###### Retrieve Authorization Code
 
+
 ###### Step Four
 ###### Exchange Code for Token
+
 
 ###### Step Five
 ###### Get Access Token
