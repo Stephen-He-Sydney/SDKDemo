@@ -2,7 +2,7 @@
 
 ## OAuth 2.0 Authorization Code Grant Type For RingCentral C# SDK 
 
-###### Table of contents
+### Table of contents
 
 1. [Overview](#overview)
 
