@@ -4,14 +4,14 @@
 
 ### Table of contents
 
-1. [Overview](#overview)
+1. [Overview](####overview)
 
-2. [Client application integration](#request-authorization-code)
-  1. [Request authorization code](#request-authorization-code)
-  2. [User login and consent](#user-login-and-consent)
-  3. [Retrieve authorization code](#retrieve-authorization-code)
-  4. [Exchange code for token](#exchange-code-for-token)
-  5. [Get access token](#get-access-token)
+2. [Client application integration](####request-authorization-code)
+  1. [Request authorization code](####request-authorization-code)
+  2. [User login and consent](####user-login-and-consent)
+  3. [Retrieve authorization code](####retrieve-authorization-code)
+  4. [Exchange code for token](####exchange-code-for-token)
+  5. [Get access token](####get-access-token)
 
 
 ###### Overview
