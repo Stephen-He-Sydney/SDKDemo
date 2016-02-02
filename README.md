@@ -6,7 +6,7 @@
 
 1. [Overview](#overview)
 
-2. [Client application integration](#request-authorization-code)
+2. [Client application integration](#client-application-integration)
   1. [Request authorization code](#request-authorization-code)
   2. [User login and consent](#user-login-and-consent)
   3. [Retrieve authorization code](#retrieve-authorization-code)
