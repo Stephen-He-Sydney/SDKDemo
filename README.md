@@ -39,6 +39,14 @@ Platform = new SDKModel().GenerateSDK().GetPlatform();
 
 
 ###### b)	Let url redirect page by calling authUrl method of SDK
+```cs
+     public ActionResult Index()
+     {
+            return Redirect(Platform.AuthUrl(AuthCodeParams));
+     }
+
+```
+
 
 ###### Step2
 ###### User login and consent
