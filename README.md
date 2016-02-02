@@ -52,6 +52,11 @@ Platform = new SDKModel().GenerateSDK().GetPlatform();
 ###### User Login and Consent
 ![alt text](http://ringcentral.github.io/images/rng_3leg-oauth_side-by-side_640x551.png "3-legged OAuth")
 
+Enter the provided phone number and password, and click login button
+- Username (phone number): 16505496100
+- Password: rcEngineering@1!
+
+
 ###### Step3
 ###### Retrieve Authorization Code
 
